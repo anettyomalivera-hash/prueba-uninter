@@ -1,0 +1,39 @@
+:root {
+  --navy:        #0d2b5e;
+  --navy-dark:   #081a3c;
+  --navy-light:  #1a4490;
+  --gold:        #c8920a;
+  --gold-light:  #e8a90d;
+  --gold-pale:   #fdf3dc;
+  --white:       #ffffff;
+  --gray-50:     #f8f9fb;
+  --gray-100:    #eef0f5;
+  --gray-300:    #c5cad6;
+  --gray-500:    #6b7384;
+  --gray-700:    #374052;
+  --gray-900:    #111827;
+
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body:    'Source Sans 3', 'Helvetica Neue', sans-serif;
+
+  --radius-sm:   6px;
+  --radius-md:   12px;
+  --radius-lg:   20px;
+  --shadow-card: 0 2px 12px rgba(13, 43, 94, 0.08), 0 1px 3px rgba(13, 43, 94, 0.05);
+  --shadow-hover: 0 8px 30px rgba(13, 43, 94, 0.16), 0 2px 8px rgba(13, 43, 94, 0.08);
+  --transition:  all 0.22s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { font-size: 16px; scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--gray-50);
+  color: var(--gray-900);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+img { display: block; max-width: 100%; }
